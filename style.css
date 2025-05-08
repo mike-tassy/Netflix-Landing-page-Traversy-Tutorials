@@ -133,7 +133,7 @@ img {
 }
 
 .tabs .container > div:hover {
-    background: #fff;
+    color: #fff;
     cursor: pointer;
 }
 
