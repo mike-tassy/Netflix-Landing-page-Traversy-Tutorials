@@ -148,6 +148,16 @@ img {
     color: white;
 }
 
+
+/* Hide contents innitially */
+#tab-1-content, #tab-2-content, #tab-3-content{
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -295,6 +305,10 @@ img {
     text-transform: uppercase;
 }
 
+.btn-icon {
+    margin-left: 1rem;
+}
+
 @media (max-width: 960px) {
     .showcase {
          height: 70vh;
@@ -341,7 +355,7 @@ img {
 
 @media (max-width:700px) {
     .showcase:after {
-        box-shadow: inset 80px 80px 2500000000px #000000, inset -80px -80px -25000px #000000;
+        box-shadow: inset 80px 80px 250px #000000, inset -80px -80px -250px #000000;
     }
 
     #tab-1-content .tab-1-content-inner {
